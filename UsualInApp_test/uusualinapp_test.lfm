@@ -1,0 +1,128 @@
+object FUsualInApp_Test: TFUsualInApp_Test
+  Left = 344
+  Height = 330
+  Top = 146
+  Width = 596
+  Caption = 'UsualInApp_Test'
+  ClientHeight = 330
+  ClientWidth = 596
+  OnCreate = FormCreate
+  LCLVersion = '2.0.0.4'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 330
+    Top = 0
+    Width = 596
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = '&System/Configs'
+      ClientHeight = 299
+      ClientWidth = 592
+      object LabeledEditSystemConfigDir: TLabeledEdit
+        Left = 23
+        Height = 27
+        Top = 32
+        Width = 529
+        EditLabel.Height = 17
+        EditLabel.Width = 529
+        EditLabel.Caption = 'SystemConfigDir'
+        EditLabel.ParentColor = False
+        TabOrder = 0
+      end
+      object LabeledEditUserConfigDir: TLabeledEdit
+        Left = 23
+        Height = 27
+        Top = 80
+        Width = 529
+        EditLabel.Height = 17
+        EditLabel.Width = 529
+        EditLabel.Caption = 'UserConfigDir'
+        EditLabel.ParentColor = False
+        TabOrder = 1
+      end
+      object LabeledEditSystemConfigFile: TLabeledEdit
+        Left = 23
+        Height = 27
+        Top = 152
+        Width = 529
+        EditLabel.Height = 17
+        EditLabel.Width = 529
+        EditLabel.Caption = 'SystemConfigFile'
+        EditLabel.ParentColor = False
+        TabOrder = 2
+      end
+      object LabeledEditUserConfigFile: TLabeledEdit
+        Left = 23
+        Height = 27
+        Top = 202
+        Width = 529
+        EditLabel.Height = 17
+        EditLabel.Width = 529
+        EditLabel.Caption = 'UserConfigFile'
+        EditLabel.ParentColor = False
+        TabOrder = 3
+      end
+      object LabeledEditUserConfigFileSubdir: TLabeledEdit
+        Left = 23
+        Height = 27
+        Top = 250
+        Width = 529
+        EditLabel.Height = 17
+        EditLabel.Width = 529
+        EditLabel.Caption = 'UserConfigFileSubdir'
+        EditLabel.ParentColor = False
+        TabOrder = 4
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = '&Datas'
+      ClientHeight = 299
+      ClientWidth = 592
+      object LabeledEditUserDataDir: TLabeledEdit
+        Left = 24
+        Height = 27
+        Top = 32
+        Width = 529
+        EditLabel.Height = 17
+        EditLabel.Width = 529
+        EditLabel.Caption = 'UserDataDir'
+        EditLabel.ParentColor = False
+        TabOrder = 0
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Data&bases'
+      ClientHeight = 299
+      ClientWidth = 592
+      object LabeledEditUserDbDir: TLabeledEdit
+        Left = 24
+        Height = 27
+        Top = 32
+        Width = 529
+        EditLabel.Height = 17
+        EditLabel.Width = 529
+        EditLabel.Caption = 'UserDbDir'
+        EditLabel.ParentColor = False
+        TabOrder = 0
+      end
+      object LabeledEditUserFirebirdFilename: TLabeledEdit
+        Left = 24
+        Height = 27
+        Top = 88
+        Width = 526
+        EditLabel.Height = 17
+        EditLabel.Width = 526
+        EditLabel.Caption = 'UserFirebirdFilename'
+        EditLabel.ParentColor = False
+        TabOrder = 1
+      end
+    end
+  end
+  object UsualInApp1: TUsualInApp
+    left = 528
+    top = 272
+  end
+end
