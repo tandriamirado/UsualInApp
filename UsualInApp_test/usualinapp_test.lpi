@@ -13,8 +13,8 @@
       <AutoIncrementBuild Value="True"/>
       <MinorVersionNr Value="1"/>
       <RevisionNr Value="2"/>
-      <BuildNr Value="3"/>
-      <StringTable CompanyName="Netsika" LegalCopyright="(c) Thierry Andriamirado 2015"/>
+      <BuildNr Value="4"/>
+      <StringTable CompanyName="Netsika" LegalCopyright="(c) Thierry Andriamirado 2019"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -44,10 +44,12 @@
       <Unit0>
         <Filename Value="usualinapp_test.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="2"/>
-        <CursorPos X="42" Y="18"/>
-        <UsageCount Value="30"/>
+        <CursorPos X="3" Y="13"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="uusualinapp_test.pas"/>
@@ -55,9 +57,9 @@
         <ComponentName Value="FUsualInApp_Test"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="38"/>
+        <TopLine Value="36"/>
         <CursorPos Y="6"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -127,11 +129,10 @@
       </Unit11>
       <Unit12>
         <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/sysutils/osutilsh.inc"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="30"/>
         <CursorPos X="10" Y="41"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="../usualinapp.pas"/>
@@ -141,9 +142,7 @@
       </Unit13>
       <Unit14>
         <Filename Value="../uusualinapp.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="92"/>
         <CursorPos Y="36"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
@@ -157,7 +156,44 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit15>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="../uusualinapp.pas"/>
+        <Caret Line="36" TopLine="92"/>
+      </Position1>
+      <Position2>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="15" Column="3" TopLine="2"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uusualinapp_test.pas"/>
+        <Caret Line="6" TopLine="38"/>
+      </Position3>
+      <Position4>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="22" TopLine="2"/>
+      </Position4>
+      <Position5>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="15" TopLine="2"/>
+      </Position5>
+      <Position6>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="22" TopLine="2"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uusualinapp_test.pas"/>
+        <Caret Line="6" TopLine="36"/>
+      </Position7>
+      <Position8>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="22" TopLine="2"/>
+      </Position8>
+      <Position9>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="13" Column="31" TopLine="2"/>
+      </Position9>
+    </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>

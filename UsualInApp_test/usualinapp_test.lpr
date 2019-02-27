@@ -10,7 +10,7 @@ uses
   Forms
   { you can add units after this }, uusualinapp_test, usualinapp;
 
-{$IFDEF WINDOWS}{$R appsimpleutils_test.rc}{$ENDIF}
+//{$IFDEF WINDOWS}{$R usualinapp_test.rc}{$ENDIF}
 
 {$R *.res}
 
