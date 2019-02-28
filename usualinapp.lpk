@@ -21,7 +21,7 @@
     <Description Value="Usual infos &amp; utils for your Lazarus apps
 "/>
     <License Value="LGPL"/>
-    <Version Minor="1" Release="1" Build="1"/>
+    <Version Minor="1" Release="2"/>
     <Files Count="1">
       <Item1>
         <Filename Value="uusualinapp.pas"/>

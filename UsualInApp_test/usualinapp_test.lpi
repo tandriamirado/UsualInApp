@@ -46,8 +46,8 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="2"/>
-        <CursorPos X="28" Y="14"/>
-        <UsageCount Value="31"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -56,10 +56,9 @@
         <ComponentName Value="FUsualInApp_Test"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="38"/>
-        <CursorPos X="34" Y="42"/>
-        <UsageCount Value="31"/>
+        <CursorPos Y="42"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -142,8 +141,9 @@
       </Unit13>
       <Unit14>
         <Filename Value="../uusualinapp.pas"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos Y="36"/>
+        <CursorPos Y="4"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit14>
@@ -163,18 +163,18 @@
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit16>
     </Units>
-    <JumpHistory Count="9" HistoryIndex="8">
+    <JumpHistory Count="6" HistoryIndex="5">
       <Position1>
-        <Filename Value="../uusualinapp.pas"/>
-        <Caret Line="36" TopLine="92"/>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="15" Column="3" TopLine="2"/>
       </Position1>
       <Position2>
         <Filename Value="usualinapp_test.lpr"/>
-        <Caret Line="15" Column="3" TopLine="2"/>
+        <Caret Line="22" TopLine="2"/>
       </Position2>
       <Position3>
-        <Filename Value="uusualinapp_test.pas"/>
-        <Caret Line="6" TopLine="38"/>
+        <Filename Value="usualinapp_test.lpr"/>
+        <Caret Line="15" TopLine="2"/>
       </Position3>
       <Position4>
         <Filename Value="usualinapp_test.lpr"/>
@@ -182,24 +182,12 @@
       </Position4>
       <Position5>
         <Filename Value="usualinapp_test.lpr"/>
-        <Caret Line="15" TopLine="2"/>
+        <Caret Line="22" TopLine="2"/>
       </Position5>
       <Position6>
         <Filename Value="usualinapp_test.lpr"/>
-        <Caret Line="22" TopLine="2"/>
-      </Position6>
-      <Position7>
-        <Filename Value="uusualinapp_test.pas"/>
-        <Caret Line="6" TopLine="36"/>
-      </Position7>
-      <Position8>
-        <Filename Value="usualinapp_test.lpr"/>
-        <Caret Line="22" TopLine="2"/>
-      </Position8>
-      <Position9>
-        <Filename Value="usualinapp_test.lpr"/>
         <Caret Line="13" Column="31" TopLine="2"/>
-      </Position9>
+      </Position6>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
