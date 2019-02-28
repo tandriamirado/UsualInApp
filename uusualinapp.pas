@@ -1,6 +1,7 @@
 unit uusualinapp;
 
-{$mode objfpc}{$H+}
+// {$mode objfpc}{$H+}
+{$ifdef fpc}{$mode delphi}{$H+}{$endif}
 
 interface
 

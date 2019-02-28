@@ -19,14 +19,14 @@ object FUsualInApp_Test: TFUsualInApp_Test
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = '&System/Configs'
-      ClientHeight = 302
-      ClientWidth = 580
+      ClientHeight = 299
+      ClientWidth = 584
       object LabeledEditSystemConfigDir: TLabeledEdit
         Left = 23
-        Height = 23
+        Height = 27
         Top = 32
         Width = 529
-        EditLabel.Height = 15
+        EditLabel.Height = 17
         EditLabel.Width = 529
         EditLabel.Caption = 'SystemConfigDir'
         EditLabel.ParentColor = False
@@ -34,10 +34,10 @@ object FUsualInApp_Test: TFUsualInApp_Test
       end
       object LabeledEditUserConfigDir: TLabeledEdit
         Left = 23
-        Height = 23
+        Height = 27
         Top = 80
         Width = 529
-        EditLabel.Height = 15
+        EditLabel.Height = 17
         EditLabel.Width = 529
         EditLabel.Caption = 'UserConfigDir'
         EditLabel.ParentColor = False
@@ -45,10 +45,10 @@ object FUsualInApp_Test: TFUsualInApp_Test
       end
       object LabeledEditSystemConfigFile: TLabeledEdit
         Left = 23
-        Height = 23
+        Height = 27
         Top = 152
         Width = 529
-        EditLabel.Height = 15
+        EditLabel.Height = 17
         EditLabel.Width = 529
         EditLabel.Caption = 'SystemConfigFile'
         EditLabel.ParentColor = False
@@ -56,10 +56,10 @@ object FUsualInApp_Test: TFUsualInApp_Test
       end
       object LabeledEditUserConfigFile: TLabeledEdit
         Left = 23
-        Height = 23
+        Height = 27
         Top = 202
         Width = 529
-        EditLabel.Height = 15
+        EditLabel.Height = 17
         EditLabel.Width = 529
         EditLabel.Caption = 'UserConfigFile'
         EditLabel.ParentColor = False
@@ -67,10 +67,10 @@ object FUsualInApp_Test: TFUsualInApp_Test
       end
       object LabeledEditUserConfigFileSubdir: TLabeledEdit
         Left = 23
-        Height = 23
+        Height = 27
         Top = 250
         Width = 529
-        EditLabel.Height = 15
+        EditLabel.Height = 17
         EditLabel.Width = 529
         EditLabel.Caption = 'UserConfigFileSubdir'
         EditLabel.ParentColor = False
@@ -80,7 +80,7 @@ object FUsualInApp_Test: TFUsualInApp_Test
     object TabSheet2: TTabSheet
       Caption = '&Datas'
       ClientHeight = 299
-      ClientWidth = 592
+      ClientWidth = 584
       object LabeledEditUserDataDir: TLabeledEdit
         Left = 24
         Height = 27
@@ -96,7 +96,7 @@ object FUsualInApp_Test: TFUsualInApp_Test
     object TabSheet3: TTabSheet
       Caption = 'Data&bases'
       ClientHeight = 299
-      ClientWidth = 592
+      ClientWidth = 584
       object LabeledEditUserDbDir: TLabeledEdit
         Left = 24
         Height = 27

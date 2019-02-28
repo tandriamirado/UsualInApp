@@ -13,7 +13,7 @@
       <AutoIncrementBuild Value="True"/>
       <MinorVersionNr Value="1"/>
       <RevisionNr Value="2"/>
-      <BuildNr Value="4"/>
+      <BuildNr Value="7"/>
       <StringTable CompanyName="Netsika" LegalCopyright="(c) Thierry Andriamirado 2019"/>
     </VersionInfo>
     <BuildModes Count="1">
@@ -44,10 +44,9 @@
       <Unit0>
         <Filename Value="usualinapp_test.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="2"/>
-        <CursorPos Y="14"/>
-        <UsageCount Value="32"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="5"/>
+        <UsageCount Value="33"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -56,9 +55,9 @@
         <ComponentName Value="FUsualInApp_Test"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="38"/>
-        <CursorPos Y="42"/>
-        <UsageCount Value="32"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="5"/>
+        <UsageCount Value="33"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -135,16 +134,16 @@
       </Unit12>
       <Unit13>
         <Filename Value="../usualinapp.pas"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos Y="4"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="35" Y="11"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
       </Unit13>
       <Unit14>
         <Filename Value="../uusualinapp.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos Y="4"/>
-        <UsageCount Value="11"/>
+        <CursorPos Y="5"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit14>
       <Unit15>
@@ -157,8 +156,8 @@
       </Unit15>
       <Unit16>
         <Filename Value="../README.md"/>
-        <EditorIndex Value="3"/>
-        <UsageCount Value="10"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="11"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit16>
