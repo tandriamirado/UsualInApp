@@ -13,7 +13,7 @@
       <AutoIncrementBuild Value="True"/>
       <MinorVersionNr Value="1"/>
       <RevisionNr Value="2"/>
-      <BuildNr Value="8"/>
+      <BuildNr Value="9"/>
       <StringTable CompanyName="Netsika" LegalCopyright="(c) Thierry Andriamirado 2019"/>
     </VersionInfo>
     <CustomData Count="13">
@@ -116,11 +116,10 @@ override_dh_auto_install:
         <PackageName Value="LCL"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="17">
+    <Units Count="19">
       <Unit0>
         <Filename Value="usualinapp_test.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <CursorPos Y="5"/>
         <UsageCount Value="33"/>
@@ -143,6 +142,7 @@ override_dh_auto_install:
         <Filename Value="../appsimpleutils.pas"/>
         <CursorPos X="17" Y="10"/>
         <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit2>
       <Unit3>
         <Filename Value="../asuusuals.pas"/>
@@ -151,6 +151,7 @@ override_dh_auto_install:
         <TopLine Value="68"/>
         <CursorPos Y="85"/>
         <UsageCount Value="14"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit3>
       <Unit4>
         <Filename Value="/usr/local/src/svn/lazarus/components/custom/AppSimpleUtils/asuusuals.pas"/>
@@ -173,6 +174,7 @@ override_dh_auto_install:
         <TopLine Value="128"/>
         <CursorPos X="30" Y="68"/>
         <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit6>
       <Unit7>
         <Filename Value="/usr/share/fpcsrc/2.2.2/rtl/objpas/sysutils/osutilsh.inc"/>
@@ -208,6 +210,7 @@ override_dh_auto_install:
       <Unit11>
         <Filename Value="../../ConfigFiles/configfiletools.pas"/>
         <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit11>
       <Unit12>
         <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/sysutils/osutilsh.inc"/>
@@ -215,6 +218,7 @@ override_dh_auto_install:
         <TopLine Value="30"/>
         <CursorPos X="10" Y="41"/>
         <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit12>
       <Unit13>
         <Filename Value="../usualinapp.pas"/>
@@ -222,6 +226,7 @@ override_dh_auto_install:
         <CursorPos X="35" Y="11"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit13>
       <Unit14>
         <Filename Value="../uusualinapp.pas"/>
@@ -229,6 +234,7 @@ override_dh_auto_install:
         <CursorPos Y="5"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit14>
       <Unit15>
         <Filename Value="../ASU-Test/uappsimpleutils_test.lfm"/>
@@ -240,13 +246,29 @@ override_dh_auto_install:
       </Unit15>
       <Unit16>
         <Filename Value="../README.md"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit16>
+      <Unit17>
+        <Filename Value="../../../../../../lazarus/components/lazutils/fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <CursorPos X="19" Y="58"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../../../../../lazarus/components/lazutils/fileutil.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="108"/>
+        <CursorPos X="55" Y="119"/>
+        <UsageCount Value="10"/>
+      </Unit18>
     </Units>
-    <JumpHistory Count="6" HistoryIndex="5">
+    <JumpHistory Count="7" HistoryIndex="6">
       <Position1>
         <Filename Value="usualinapp_test.lpr"/>
         <Caret Line="15" Column="3" TopLine="2"/>
@@ -271,6 +293,10 @@ override_dh_auto_install:
         <Filename Value="usualinapp_test.lpr"/>
         <Caret Line="13" Column="31" TopLine="2"/>
       </Position6>
+      <Position7>
+        <Filename Value="../uusualinapp.pas"/>
+        <Caret Line="5"/>
+      </Position7>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>

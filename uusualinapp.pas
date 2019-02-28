@@ -6,8 +6,12 @@ unit uusualinapp;
 interface
 
 uses
+{$ifndef fpc}
+  System.SysUtils, System.Classes, Vcl.Controls;
+{$else}
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs,
   FileUtil;
+{$endif}
 
 type
 
@@ -61,7 +65,12 @@ destructor TUsualInApp.Destroy;
 begin
   if (TmpDir <> '') and DirectoryExists(TmpDir) then
      // if DeleteDirectory(TmpDir, True) then RemoveDirUTF8(TmpDir);
+{$ifndef fpc}
+     RemoveDir(TmpDir); // ToDo: Delphi: Recursive delete + Error checking
+{$else}
      if DeleteDirectory(TmpDir, True) then RemoveDir(TmpDir);
+{$endif}
+
   inherited Destroy;
 end;
 
